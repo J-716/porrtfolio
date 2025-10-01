@@ -69,8 +69,6 @@ export default function ProjectCard({ project, className }: ProjectCardProps) {
             <Button size="sm" variant="outline" asChild>
               <a
                 href="#"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="flex items-center space-x-1"
               >
                 <svg
@@ -94,8 +92,6 @@ export default function ProjectCard({ project, className }: ProjectCardProps) {
             <Button size="sm" variant="outline" asChild>
               <a
                 href="#"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="flex items-center space-x-1"
               >
                 <svg
