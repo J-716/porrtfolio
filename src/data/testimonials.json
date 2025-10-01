@@ -1,0 +1,35 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Sarah Johnson",
+    "company": "TechCorp Inc.",
+    "role": "CEO",
+    "content": "Jay's work on our e-commerce platform exceeded all expectations. The redesign resulted in a 35% increase in conversions and significantly improved user experience. Highly professional and detail-oriented.",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Michael Chen",
+    "company": "SecureBank",
+    "role": "CTO",
+    "content": "The mobile banking app Jay developed for us is not only beautiful but also incredibly secure and user-friendly. Our customers love the intuitive interface and biometric features.",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Emma Rodriguez",
+    "company": "EcoFashion Co.",
+    "role": "Founder",
+    "content": "Jay created a stunning brand identity that perfectly captures our sustainable fashion mission. The design system is comprehensive and our team loves working with it.",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-4",
+    "name": "David Park",
+    "company": "DataInsights Ltd.",
+    "role": "Product Manager",
+    "content": "The analytics dashboard Jay built transformed how our clients interact with their data. The real-time visualizations and intuitive interface have been game-changers.",
+    "rating": 5
+  }
+]
+

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform Redesign",
+    "description": "Complete redesign of a modern e-commerce platform with enhanced UX and performance optimization.",
+    "longDescription": "Led a comprehensive redesign of a high-traffic e-commerce platform, improving conversion rates by 35% and reducing bounce rate by 28%. The project involved user research, wireframing, prototyping, and implementation of a modern design system with accessibility-first approach.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Stripe", "Vercel"],
+    "category": "web",
+    "featured": true,
+    "liveUrl": "https://example-ecommerce.com",
+    "githubUrl": "https://github.com/j-designs/ecommerce-platform",
+    "completedAt": "2024-01-15",
+    "client": "TechCorp Inc.",
+    "tags": ["E-commerce", "UX/UI", "Performance", "Accessibility"]
+  },
+  {
+    "id": "mobile-banking-app",
+    "title": "Mobile Banking App",
+    "description": "Secure and intuitive mobile banking application with biometric authentication.",
+    "longDescription": "Designed and developed a comprehensive mobile banking app featuring secure authentication, real-time transactions, and intuitive financial management tools. Implemented advanced security measures and ensured compliance with financial regulations.",
+    "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["React Native", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Stripe"],
+    "category": "mobile",
+    "featured": true,
+    "liveUrl": "https://apps.apple.com/example-bank",
+    "completedAt": "2023-11-20",
+    "client": "SecureBank",
+    "tags": ["Mobile", "Fintech", "Security", "UX/UI"]
+  },
+  {
+    "id": "brand-identity-design",
+    "title": "Brand Identity & Design System",
+    "description": "Complete brand identity design for a sustainable fashion startup.",
+    "longDescription": "Created a comprehensive brand identity including logo design, color palette, typography, and design system for a sustainable fashion startup. The brand identity reflects the company's eco-friendly values while maintaining modern appeal.",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["Figma", "Adobe Creative Suite", "Sketch", "Principle"],
+    "category": "branding",
+    "featured": true,
+    "completedAt": "2023-09-10",
+    "client": "EcoFashion Co.",
+    "tags": ["Branding", "Logo Design", "Design System", "Sustainability"]
+  },
+  {
+    "id": "saas-dashboard",
+    "title": "SaaS Analytics Dashboard",
+    "description": "Real-time analytics dashboard for a B2B SaaS platform.",
+    "longDescription": "Built a comprehensive analytics dashboard with real-time data visualization, custom reporting tools, and advanced filtering capabilities. The dashboard helps businesses make data-driven decisions with intuitive charts and interactive elements.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["Vue.js", "TypeScript", "D3.js", "Chart.js", "Node.js", "MongoDB"],
+    "category": "web",
+    "featured": false,
+    "liveUrl": "https://analytics.example.com",
+    "completedAt": "2023-07-25",
+    "client": "DataInsights Ltd.",
+    "tags": ["Analytics", "Dashboard", "Data Visualization", "SaaS"]
+  },
+  {
+    "id": "restaurant-website",
+    "title": "Restaurant Website & Online Ordering",
+    "description": "Modern restaurant website with integrated online ordering system.",
+    "longDescription": "Designed and developed a responsive restaurant website featuring online menu, reservation system, and integrated online ordering. The site includes admin panel for menu management and order tracking.",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["Astro", "TypeScript", "Tailwind CSS", "Stripe", "Vercel"],
+    "category": "web",
+    "featured": false,
+    "liveUrl": "https://bella-vista-restaurant.com",
+    "completedAt": "2023-05-18",
+    "client": "Bella Vista Restaurant",
+    "tags": ["Restaurant", "E-commerce", "Online Ordering", "Responsive"]
+  },
+  {
+    "id": "fitness-mobile-app",
+    "title": "Fitness Tracking Mobile App",
+    "description": "Comprehensive fitness tracking app with workout plans and progress monitoring.",
+    "longDescription": "Created a feature-rich fitness tracking mobile app with workout plans, progress tracking, social features, and integration with wearable devices. The app includes gamification elements to encourage user engagement.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center&q=80&fm=webp",
+    "technologies": ["Flutter", "Dart", "Firebase", "Google Fit API", "Stripe"],
+    "category": "mobile",
+    "featured": false,
+    "liveUrl": "https://play.google.com/fit-tracker",
+    "completedAt": "2023-03-12",
+    "client": "FitLife Inc.",
+    "tags": ["Fitness", "Mobile", "Health", "Gamification"]
+  }
+]
+
