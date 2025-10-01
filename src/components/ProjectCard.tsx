@@ -68,7 +68,7 @@ export default function ProjectCard({ project, className }: ProjectCardProps) {
           {project.liveUrl && (
             <Button size="sm" variant="outline" asChild>
               <a
-                href={project.liveUrl}
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1"
@@ -93,7 +93,7 @@ export default function ProjectCard({ project, className }: ProjectCardProps) {
           {project.githubUrl && (
             <Button size="sm" variant="outline" asChild>
               <a
-                href={project.githubUrl}
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1"
