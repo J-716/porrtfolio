@@ -2,9 +2,10 @@ import { cn } from '@/lib/utils';
 
 interface FooterProps {
   className?: string;
+  logoUrl?: string;
 }
 
-export default function Footer({ className }: FooterProps) {
+export default function Footer({ className, logoUrl = '/images/jdesignslogo.png' }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
@@ -52,7 +53,7 @@ export default function Footer({ className }: FooterProps) {
           <div className="md:col-span-2">
             <div className="mb-8">
               <img 
-                src="/images/jdesignslogo.png" 
+                src={logoUrl} 
                 alt="J Designs Logo" 
                 className="h-40 w-auto"
               />

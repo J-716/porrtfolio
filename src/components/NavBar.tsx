@@ -4,9 +4,10 @@ import { cn } from '@/lib/utils';
 
 interface NavBarProps {
   className?: string;
+  logoUrl?: string;
 }
 
-export default function NavBar({ className }: NavBarProps) {
+export default function NavBar({ className, logoUrl = '/images/jdesignslogo.png' }: NavBarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -34,7 +35,7 @@ export default function NavBar({ className }: NavBarProps) {
         <div className="flex items-center">
           <a href="/" className="group flex items-center">
             <img 
-              src="/images/jdesignslogo.png" 
+              src={logoUrl} 
               alt="J Designs Logo" 
               className="h-12 w-auto max-h-12 object-contain transition-transform duration-200 group-hover:scale-105"
               onError={(e) => {
