@@ -2,14 +2,6 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "framework": "astro",
-  "functions": {
-    "src/pages/api/contact.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "env": {
-    "RESEND_API_KEY": "@resend_api_key"
-  },
   "headers": [
     {
       "source": "/(.*)",
@@ -25,6 +17,10 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
         }
       ]
     }
