@@ -32,11 +32,15 @@ export default function NavBar({ className }: NavBarProps) {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="/" className="group">
+          <a href="/" className="group flex items-center">
             <img 
               src="/images/jdesignslogo.png" 
               alt="J Designs Logo" 
-              className="h-24 w-auto transition-transform duration-200 group-hover:scale-105"
+              className="h-12 w-auto max-h-12 object-contain transition-transform duration-200 group-hover:scale-105"
+              onError={(e) => {
+                console.error('Logo failed to load:', e);
+                e.currentTarget.style.display = 'none';
+              }}
             />
           </a>
         </div>
